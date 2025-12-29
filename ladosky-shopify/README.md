@@ -5,7 +5,7 @@ It stimulates a real online shopping experience and was created as a portfolio p
 
 The app includes product browsing, cart functionality, authentication, admin roles, wishlist, filtering and persistent state using local storage.
 
-Features
+Feature
 
 Product listing fetched from a Real API (DummyJSON)
 Product categories and filtering
