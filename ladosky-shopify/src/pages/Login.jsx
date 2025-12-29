@@ -28,9 +28,7 @@ function Login(){
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}/>
 
-            <button type="submit">Login</button>
-
-            <p>Admin Email: oladojabasit29@gmail.com</p>          
+            <button type="submit">Login</button>        
             </form>
         </div>
         

@@ -1,16 +1,91 @@
-# React + Vite
+Ladosky Shopify 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LadoskyShopify is a demo e-commerce web application built with react.
+It stimulates a real online shopping experience and was created as a portfolio project to demonstrate my frontend development skills.
 
-Currently, two official plugins are available:
+The app includes product browsing, cart functionality, authentication, admin roles, wishlist, filtering and persistent state using local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## React Compiler
+Product listing fetched from a Real API (DummyJSON)
+Product categories and filtering
+Search functionality 
+Shopping cart with quantiyt Control
+Wishlist Functionality
+Authentication (Login / Logout)
+Role-based Access(Admin/ user)
+Admin dashboard for managing products
+Protected routes
+persistent cart, wishlist and auth using local storage
+Responsive Navigation Bar
+Clean and scalable project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
+    **React**
+    **React Router**
+    **Context API**
+    **useReducer**
+    **DummyJSON**
+    **CSS (Custom Styling)**
 
-## Expanding the ESLint configuration
+Project Structure 🗃️
+src/
+├── api/
+├── assets/
+├── auth/
+├── components/
+├── constants/
+├── features/
+├── pages/
+├── styles/
+├── util/
+├── App.jsx
+├── index.css
+├── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This structure helps keep the application modular, scalable, and easy to maintain.
+
+Demo Login
+
+To access admin features, use the email below:
+
+    oladojabasit29@gmail.com
+
+(Admin access is handled using role-based authentication)
+
+Screenshots
+
+## Home Page
+
+![Home Page](public/screenshots/home.png)
+
+## Product Page
+
+![Product Page](public/screenshots/products.png)
+
+## Admin Page
+
+![Admin Page](public/screenshots/Admin.png)
+
+## Cart Page
+
+![Cart Page](public/screenshots/cart.png)
+
+
+📚 What I Learned
+	•	How to structure a real-world React application
+	•	Managing global state with Context API and useReducer
+	•	Implementing authentication and role-based authorization
+	•	Persisting application state using LocalStorage and useRef
+	•	Working with external APIs and handling async data
+	•	Building reusable and maintainable components
+	•	Debugging real React application issues
+
+
+📌 Note
+This project is a demo application built for learning and portfolio purposes.
+No real payments or backend services are connected.
+
+👤 Author
+Basit (Ladosky)
+Frontend Developer (React)
