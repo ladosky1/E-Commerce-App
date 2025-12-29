@@ -57,19 +57,19 @@ Screenshots
 
 ## Home Page
 
-![Home Page](public/screenshots/home.png)
+![Home Page](src/screenshots/home.png)
 
 ## Product Page
 
-![Product Page](public/screenshots/products.png)
+![Product Page](src/screenshots/products.png)
 
 ## Admin Page
 
-![Admin Page](public/screenshots/Admin.png)
+![Admin Page](src/screenshots/Admin.png)
 
 ## Cart Page
 
-![Cart Page](public/screenshots/cart.png)
+![Cart Page](src/screenshots/cart.png)
 
 
 📚 What I Learned
