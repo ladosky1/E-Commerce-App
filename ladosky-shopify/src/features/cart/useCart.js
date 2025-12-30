@@ -1,7 +1,7 @@
 import { useContext, useMemo } from "react";
 import { CartContext } from "./CartContext";
 import { toNaira } from "../../util/price";
-import { formatNaira } from "../../util/price";
+
 
 export function useCart(){
     const {cart, dispatch} = useContext(CartContext);
@@ -24,7 +24,7 @@ export function useCart(){
 
     const totalPrice = useMemo(() => {
         return cart.reduce(
-            (total, item) => total + formatNaira(toNaira(item.price)) * item.quantity, 0);
+            (total, item) => total + toNaira(item.price) * item.quantity, 0);
     }, [cart]);
 
     return {

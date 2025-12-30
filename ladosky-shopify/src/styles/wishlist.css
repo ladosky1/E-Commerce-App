@@ -4,6 +4,7 @@
     margin: auto;
 }
 .wishlist-title{
+    text-align: center;
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: var(--primary-blue);

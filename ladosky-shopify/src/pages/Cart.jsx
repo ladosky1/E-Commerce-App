@@ -47,7 +47,9 @@ function Cart(){
             <h2 className='cart-title'>Your Cart 🛒</h2>
             {cart.map((item) => (
                 <div key={item.id} className='cart-item'>
-                    <img src={item.thumbnail} alt={item.title} width="80"/>
+                    <div className='cart-image'>
+                    <img src={item.thumbnail} alt={item.title}/>
+                    </div>
                     
                     <div className='cart-item-info'>
                         <h4>{item.title}</h4>
@@ -72,7 +74,7 @@ function Cart(){
                     </button>
                 </div>
             ))}
-            <h3 className='cart-total'>Total: ${totalPrice}</h3>
+            <h3 className='cart-total'>Total: ₦{formatNaira(totalPrice)}</h3>
             <button 
                 onClick={clearCart}
                 className='cart-item__clear-btn'>

@@ -5,6 +5,10 @@ It stimulates a real online shopping experience and was created as a portfolio p
 
 The app includes product browsing, cart functionality, authentication, admin roles, wishlist, filtering and persistent state using local storage.
 
+Live Demo:
+
+https://ladoskyshopify.netlify.app/
+
 Feature
 
 Product listing fetched from a Real API (DummyJSON)
@@ -85,6 +89,14 @@ Screenshots
 📌 Note
 This project is a demo application built for learning and portfolio purposes.
 No real payments or backend services are connected.
+
+Future Improvements
+
+--Backend Integration(Node.js/Express)
+--Real Payment Gateway
+--User Registration
+--Product Reviews
+--Order History
 
 👤 Author
 Basit (Ladosky)
